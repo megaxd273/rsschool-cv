@@ -9,10 +9,9 @@ Kozlov Stanislav
     + GitHub: megaxd273
     + Telegram: @Xdxd123xdxd
 
-
 3. About myself:
-I am in my fourth year at university. Its been a long and hard path for me to get through. 
-Unfortunately, the lack of any motivation has led to a meager amount of knowledge, which at the moment is not enough for the implementation of the graduation project. However, I still have hope for a better life and with the support of a friend, I decided to start studying.
+    I am in my fourth year at university. Its been a long and hard path for me to get through. 
+    Unfortunately, the lack of any motivation has led to a meager amount of knowledge, which at the moment is not enough for the implementation of the graduation project. However, I still have hope for a better life and with the support of a friend, I decided to start studying.
 4. Skills:
     *  *C#*
     *  *EF Core*
@@ -20,16 +19,15 @@ Unfortunately, the lack of any motivation has led to a meager amount of knowledg
     *  *a bit of ASP.NET CORE*
     *  *SQL*
 5. Code example:
-```public int Fitness(Plan plan)
-        {
-            int result = 0;
-            foreach (Func<Plan,int> func in FitnessFuncs)
-            {
-                result += func(plan);
-            }
-            return result;
-        }
-```
+    ```public int Fitness(Plan plan)```
+         ```   {```
+                    ```int result = 0;```
+                    ```foreach (Func<Plan,int> func in FitnessFuncs)```
+                    ```{```
+                      ```  result += func(plan);```
+                  ```  }```
+                   ``` return result;```
+            ```  } ```
 6. Experience:
  Everything I've made is stored local. So...
 7. Education:

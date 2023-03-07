@@ -1,1 +1,1 @@
-https://megaxd273.github.io/rsschool-cv/cv.md
+https://megaxd273.github.io/rsschool-cv/cv
