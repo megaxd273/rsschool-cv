@@ -4,7 +4,7 @@ Kozlov Stanislav
 
 ===
 
-2. COntacts:
+2. Contacts:
     + Gmail: kazemirova.l@gmail.com
     + GitHub: megaxd273
     + Telegram: @Xdxd123xdxd
@@ -20,8 +20,7 @@ Unfortunately, the lack of any motivation has led to a meager amount of knowledg
     *  *a bit of ASP.NET CORE*
     *  *SQL*
 5. Code example:
-```
-public int Fitness(Plan plan)
+```public int Fitness(Plan plan)
         {
             int result = 0;
             foreach (Func<Plan,int> func in FitnessFuncs)
