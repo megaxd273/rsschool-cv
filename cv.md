@@ -8,9 +8,9 @@
 
 2. Contacts:
 
-   - [telegram] (https://t.me/megaxd274)
-   - [mail] (kazemirova.l@gmail.com)
-   - [discord] (https://discordapp.com/users/466573332196884481/)
+   - [telegram](https://t.me/megaxd274)
+   - [mail](kazemirova.l@gmail.com)
+   - [discord](https://discordapp.com/users/466573332196884481/)
 
 3. About me:
    Having completed university a year ago with a degree in Software Engineering, I initially struggled with my studies due to a lack of interest. Despite this, I managed to graduate and secure a job as a system administrator in an office environment.
@@ -47,3 +47,16 @@
          .join('');
      }
    ```
+
+6. [Diploma Project](https://github.com/megaxd273/dip)
+
+7. Education:
+
+   - BNTU Faculty of Information Technologies and Robotics,
+     Department of Software Engineering and Information Technologies (2019-2023)
+
+   - Participated in rsschool stage 1 and node js course but did't make it till the end.
+
+8. Languages:
+   - Russian(native)
+   - English(~B1-B2)
