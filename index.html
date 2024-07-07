@@ -128,7 +128,74 @@
       </div>
 
     </section>
+    <section class="narrow-section">
+      <h2>Education</h2>
+      <div class="content-container ">
+        <ul class="education-list">
+          <li class="education-list_item">BNTU Faculty of Information Technologies and Robotics,
+            Department of Software Engineering and Information Technologies (2019-2023)</li>
+          <li class="education-list_item">Participated in rsschool stage 1 and node js course but did't make it till the
+            end.</li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <h2>Code example</h2>
+      <pre><code>
+function fixRgb(number) {
+    return (number === 0 ? '00' : number &lt; 0 ? '00' 
+    : number > 255 ? 255 : number)
+        .toString(16)
+        .toUpperCase();
+}
 
+function rgb(r, g, b) {
+    let arr = [];
+    for (const arg of arguments) {
+        arr.push(fixRgb(arg));
+    }
+    console.log(arr);
+    return arr
+        .map((el) => {
+            if (el.length === 1) {
+                el = '0' + el;
+            }
+            return el;
+        })
+        .join('');
+}
+    </code></pre>
+    </section>
+
+
+    <section class="experience-section">
+      <h2>Experience</h2>
+      <div class="content-container ">
+        <ul class="education-list">
+          <li class="education-list_item experience_item">
+            <a class="experience_link" href="https://github.com/megaxd273/dip">Diploma project</a>
+            <p>Express, React, PostgreSQL, Sequelize, REST</p>
+            <br>
+            <p> Application on the Node.js platform using Express.js and React frameworks.It is a web
+              application
+              developed using REST-architecture to record the activity and workload of teachers in an educational
+              institution. The
+              application includes an authorization system with separation of user roles and provides functionality for
+              entering,
+              storing and analyzing data on teachers' workload.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <h2>Languages</h2>
+      <div class="content-container ">
+        <ul class="education-list">
+          <li class="education-list_item">Russian(native)</li>
+          <li class="education-list_item">English(~B1-B2)</li>
+        </ul>
+      </div>
+    </section>
   </main>
   <footer></footer>
 </body>

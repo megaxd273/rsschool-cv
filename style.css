@@ -35,7 +35,7 @@ h2 {
   left: 20px;
   color: var(--heading2-color);
   border-radius: 30px;
-  background: #ea759f;
+  background: #dd7b9f;
 }
 h3 {
   margin-bottom: 10px;
@@ -137,6 +137,9 @@ main {
 .narrow-section {
   width: 45%;
 }
+.experience-section {
+  width: 70%;
+}
 
 .content-container {
   background: #fff;
@@ -169,4 +172,20 @@ main {
 
 .skills__item-point_colored {
   background: #f2810b;
+}
+.education-list {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.education-list_item {
+  list-style: "— ";
+}
+.experience_item {
+  list-style: none;
+}
+.experience_link {
+  color: #32a842;
+  text-decoration: underline;
 }
