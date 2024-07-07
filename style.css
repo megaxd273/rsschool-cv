@@ -82,7 +82,7 @@ header {
 }
 
 .avatar__image {
-  width: 110%;
+  width: 100%;
   height: auto;
 }
 
@@ -188,4 +188,29 @@ main {
 .experience_link {
   color: #32a842;
   text-decoration: underline;
+}
+footer {
+  padding: 30px;
+  background: linear-gradient(#fdf2da, #f9d17b);
+}
+.footer-link {
+  display: inline-block;
+}
+.footer-container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 100px;
+  margin-bottom: 20px;
+}
+
+.footer-link img {
+  width: auto;
+  height: 100px;
+}
+.footer-year {
+  color: #575757;
+  position: absolute;
+  left: 50%;
 }
